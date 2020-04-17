@@ -1,0 +1,141 @@
+Display property:
+inline:	It is used to displays an element as an inline element.
+block:	It is used to displays an element as a block element
+contents:It is used to disappear the container.
+flex:It is used to display an element as a block-level flex container.
+grid:It is used to display an element as a block-level grid container.
+inline-block:It is used to display an element as a inline-level block container.
+inline-flex:It is used to display an element as a inline-level flex container.
+inline-grid:It is used to display an element as a inline-level grid container.
+inline-table:It is used to display an inline-level table
+list-item:It is used to display all the element in <li> element.
+run-in:It is used to display an element inline or block level, depending on context.
+table:It is used to set the behavior as <table> for all element.
+table-caption:It is used to set the behavior as <caption> for all element.
+table-column-group:It is used to set the behavior as <column> for all element.
+table-header-group	
+table-footer-group:It is used to set the behavior as <header> for all element.
+table-row-group:It is used to set the behavior as <row> for all element.
+table-cell:It is used to set the behavior as <td> for all element.
+table-column:It is used to set the behavior as <col> for all element.
+table-row:It is used to set the behavior as <tr> for all element.
+none:It is used to remove the element.
+initial:It is used to set the default value.
+inherit:It is used to inherit the property from it’s parents elements.
+Properties of CSS Borders :
+
+Border Style : The border-style property specifies the type of border. None of the other border properties will work without setting the border style.
+Following are the types of borders:
+*dotted – Defines a dotted border
+*dashed – Defines a dashed border
+*solid – Defines a solid border
+*double – Defines a double border
+*groove – Defines a 3D grooved border.
+*ridge – Defines a 3D ridged border.
+*inset – Defines a 3D inset border.
+*outset – Defines a 3D outset border.
+*none – Defines no border
+*hidden – Defines a hidden border
+Border Width : Border width sets the width of the border . Width of the border can be in px, pt, cm or thin, medium and thick.
+Border Color : This property is used to set the color of the border. Color can be set using the color name, hex value or rgb value. If the color is not specified border inherits the color of the element itself.
+Border individual sides : Individual sides can be set with different properties.
+
+*If border properties has 4 values then:
+
+border-style : solid dashed dotted double
+Solid : top border
+Dashed : right border
+Dotted : bottom border
+Double : left border.
+
+Links:
+a:link => This is a normal, unvisited link.
+a:visited => This is a link visited by user at least once
+a:hover => This is a link when mouse hovers over it
+a:active => This is a link which is just clicked.
+
+Font:
+font-family
+font-style
+font-weight
+font-variant
+font-size
+
+Text Formatting:
+
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Line height
+8.Text-direction
+9.Text-shadow
+10.Word spacing
+
+Height and Width in CSS are used to set the height and width of boxes. It’s value can be set using length, percentage or auto.
+
+The CSS overflow controls the big content. It tells whether to clip content or to add scroll bars. The overflow contains the following property:
+
+visible
+hidden
+scroll
+auto
+Visible: The content is not clipped and visible outside the element box.
+Hidden: The overflow is clipped and the rest of the content is invisible.
+Scroll: The overflow is clipped but a scrollbar is added to see the rest of the content. The scrollbar can be horizontal or vertical.
+Auto: It automatically adds a scrollbar whenever it is required.
+Overflow-x and Overflow-y: This property specifies how to change the overflow of elements. x deals with horizontal edges and y deals with vertical edges.
+
+CSS combinators are explaining the relationship between two selectors. CSS selectors are the patterns used to select the elements for style purpose. A CSS selector can be a simple selector or a complex selector consisting of more than one selector connected using combinators.
+General Sibling selector (~)
+Adjecant Sibling selector (+)
+Child selector (>)
+Descendant selector (space)
+General Sibling selector: The general sibling selector is used to select the element that follows the first selector element and also share the same parent as the first selector element. This can be used to select a group of elements that share the same parent element.
+Adjacent Sibling selector: The Adjacent sibling selector is used to select the element that is adjacent or the element that is the next to the specified selector tag. This combinator selects only one tag that is just next to the specified tag.
+Child Selector: This selector is used to select the element that is the immediate child of the specified tag. This combinator is stricter than the descendant selector because it selects only the second selector if it has the first selector element as its parent.
+Descendant selector: This selector is used to select all the child elements of the specified tag. The tags can be the direct child of the specified tag or can be very deep in the specified tag. This combinator combines the two selectors such that selected elements have an ancestor same as the first selector element.
+
+Pagination is the process of dividing the document into pages and providing them with numbers.
+Types of Pagination: There are many types of pagination in CSS. Some of them are given below:
+
+Simple Pagination
+Active and Hoverable Pagination
+Rounded Active and Hoverable Buttons
+Hoverable Transition Effect
+Bordered Pagination
+Rounded Border Pagination
+Centered Pagination
+Space between Pagination
+Pagination Size
+Simple Pagination: This is the basic form of pagination.
+Active and Hoverable Pagination: In this pagination, by using the active class the current page will be highlighted. Hover will change the color of the page link when the mouse moves over them.
+Rounded Active and Hoverable Buttons: For rounded active and hoverable buttons just add border-radius property.
+Hoverable Transition Effect: Transition property is added to create a transition effect on hover.
+Bordered Pagination: In this type of pagination a border is added to the pagination. Use border property to add borders to the pagination.
+Rounded Border Pagination: Border can be rounded using border-radius property.
+Centered Pagination: Pagination can be centered by using text-align property.
+Space Between Pagination: Page links can be spaced if you do not want to group them. Use margin property to provide space between the links.
+Pagination Size: The size of the pagination can be changed using font-size property.
+
+The CSS flex-wrap property is used to specify whether flex items are forced into a single line or wrapped onto multiple lines. The flex-wrap property allows enabling the control direction in which lines are stacked. It is used to designate a single line or multi-line format to flex items inside the flex container.
+wrap: This property is used to break the flex item into multiples lines. It makes flex items wrap to multiple lines according to flex item width.
+nowrap: The default value of wrap-flex is nowrap. It is used to specify that the item has no wrap. It makes item wrap in single lines.
+nowrap: The default value of wrap-flex is nowrap. It is used to specify that the item has no wrap. It makes item wrap in single lines.
+initial: This property is used to set it as default value.
+
+The CSS background properties are used to define the background effects for elements.
+Background-color
+Background-image
+Background-repeat
+Background-attachment
+Background-position
+Background color : This property specifies the background color of an element.
+Background Image : This property specify an image to use as the background of an element. By default, the image is repeated so it covers the entire element.
+Background repeat : By default the background image property repeats the image both horizontally and vertically.
+Background-attachment : This property is used to fix the background ground image.The image will not scroll with the page.
+Background-position : This property is used to set the image to a particular position.
+
+
