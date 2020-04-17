@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+   /* margin:0px;
+    padding: 0px;*/
+    background-color: rgb(34, 125, 178);
+    overflow: hidden;
+    height: 50px;
+    color: floralwhite;
+}
+li{
+    float: left;
+    padding: 20px 10px;
+
+}
+li a{
+    text-decoration: none;
+    margin: 14px 16px;
+   
+    color: ghostwhite;
+    font-size: 25px;
+    
+}
+li a:hover{
+    background-color: greenyellow;
+}

@@ -1,0 +1,41 @@
+body{
+    background-image: url('/images/lion-4581841_1280.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+form{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 380px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: beige;
+    font-family: fantasy;
+
+}
+input[type="text"], input[type="password"]{
+width:200px;
+height:20px;
+border: 1px solid brown;
+border-radius: 50px;
+outline: none;
+text-align: center;
+font-size: 15px;
+margin: 10px ;
+
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border: 1px solid palevioletred;
+    border-radius: 50px;
+    font-size: 15px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(255, 0, 0, 0.452);
+    color: yellow;
+}
