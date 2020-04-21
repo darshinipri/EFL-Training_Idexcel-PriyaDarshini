@@ -1,0 +1,41 @@
+form {
+  width: 350px;
+  height: 500px;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 600px;
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.def1 {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(117, 43, 74);
+  font-family: sans-serif;
+
+}
+.inarea {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 30px;
+  width: 300px;
+  border-radius: 2px;
+  padding-left: 10px;
+  font-size: 20px;
+  outline: none;
+}
+label {
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+button{
+  margin-top: 40px;
+  font-size: 20px;
+  color: black;
+  margin-right: 150px;
+  margin-left: 100px;
+  padding: 10px;
+}

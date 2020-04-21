@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_bar{
+    background: rgb(0, 0, 0.5);
+    height: 70px;
+
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px 5px;
+
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+
+}
+.menu li a:hover{
+    background-color: #fff;
+    transition: .4s;
+    color: #000;
+
+}
+.welome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 160px;
+}
+.welome h1{
+    font-size: 42px;
+    margin: 25px;
+}
+
+.btn{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.btn1{
+    background-color: #fff;
+    color: #000;
+}
+.btn1:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s;
+}
+.def {
+    font-size: 20px;
+    padding:10px;
+    color: white;
+    background-color: rgb(117, 43, 74);
+    font-family: sans-serif;
+
+}
+.ing{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
