@@ -1,0 +1,21 @@
+table, th, td{
+    /* border:1px solid black;
+     border-collapse: collapse;*/ 
+     text-align: center;
+     padding: 30px;
+     cursor: pointer;
+     border-radius: 10px;
+     font-size: 25px;
+ 
+ }
+ table{
+     width: 800px;
+ }
+ .def {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(117, 43, 74);
+    font-family: sans-serif;
+
+}
+

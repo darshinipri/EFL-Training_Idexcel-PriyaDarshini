@@ -1,0 +1,23 @@
+
+body{
+    background-image: url(images/Screenshot_2020-04-21-14-02-39-09.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:15in;
+
+}
+.sec{
+    margin: 0px 0px 0px 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: solid black;
+}
+h1{
+    font-size: 42px;
+    margin: 25px;
+}
+h4{
+    font-size: 42px;
+    margin left: 30px;
+}
